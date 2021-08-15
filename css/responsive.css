@@ -1,0 +1,133 @@
+/* Mobile & Tablet */
+@media screen and (max-width: 1023px) {
+   .slider .slider__text--content{
+        top: 27% ;
+        left: 100px ;
+   }
+   .row .education__wrap {
+        top: 70px;
+   }
+   .container__society{
+        margin-top: 50px ;
+   }
+   .container__contact .background__man{
+        right: -136px ;
+        top: -86px 
+   }
+   .feature__item{
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        box-shadow: 2px 2px 5px #ccc;
+   }
+   .row .education__info{
+       bottom: auto ;
+       width: 65%;
+   }
+   .background__feature{
+       display: none;
+   }
+   .feature__item .feature__price{
+       top: 64% ;
+   }
+    .education__item .education__item--heading{
+       font-size: 2em;
+   }
+   .item__custom .footer__heading{
+       font-size: 2em;
+   }
+   .clients__worldwide--info .clients__worldwide--heading{
+       font-size: 22px;
+   }
+}
+
+@media screen and (max-width : 816px) {
+    .header__input--wrap {
+        width: 100px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .header__navbar--list .header__navbar--item {
+        padding: 15px 15px;
+    }
+    .container__contact .background__man{
+        width: 500px;
+        height: 500px;
+        right: -127px;
+        top: -74px;
+    }
+    .container__wrap{
+        margin-top: 10px;
+    }
+    .container__wrap .container__wrap--btn{
+        right: 180px;
+    }
+    .container__clients{
+        display: block !important;
+    }
+    .row .education__info{
+        width: 80%;
+    }
+    .education__heading{
+        width: auto;
+    }
+    .row .education__wrap {
+        top: 15px;
+    }
+    .slider .slider__text--content{
+        top: 40% ;
+        
+   }
+}
+
+/* Mobile */
+@media screen and (max-width: 739px){
+    .header .header__navbar{
+        display: none;
+    }
+    .header__input--wrap{
+        /* display: none; */
+    }
+    .footer__top { 
+        display: block !important;
+        padding-left: 40px !important;
+    }
+    .container__contact .background__man{
+        right: 0px ;
+        top: 15px;
+        width: 300px;
+        height: 400px;
+   }
+   .feature__item .feature__price{
+    top: 43% ;
+    }
+    .container__wrap .container__wrap--btn{
+        right: 200px;
+    }
+    .container__clients{
+        display: block !important; 
+    }
+    .row .education__info{
+        width: fit-content;
+    }
+    .education__wrap .education__heading{
+        width: fit-content;
+    }
+    .row .education__wrap{
+        top: 25px;
+    }
+    .slider .slider__text--content{
+        top: 20%;
+    }
+    .home__features{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    body .container__society{
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
